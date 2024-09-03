@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes" thread-count = "2">
+             <!-- Include the parallel attribute to run tests in parallel in suite tag-->
+         
+    <test name="Test1">
+        <classes>
+            <!-- Add the class name to be tested  -->
+            <class name="ParallelTests_ex3.CosmoBank"/>
+        </classes>
+    </test>
+    <test name="Test2">
+        <classes>
+            <!-- Add the class name to be tested  -->
+            <class name="ParallelTests_ex3.RentaCar"/>
+        </classes>
+    </test>
+</suite>

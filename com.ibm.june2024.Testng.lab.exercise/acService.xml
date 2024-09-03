@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ACServiceDetails>
+  <Service id = "1">
+    <CustomerName>Irfan Mohammed</CustomerName>
+    <MobileNumber>9765112048</MobileNumber>
+    <Email>irfan@gmail.com</Email>
+    <Address>Coimbatore</Address>
+    <ACType>Window</ACType>
+    <ServiceType>Repair</ServiceType>
+    <Maintenance>Yes</Maintenance>
+    <Duration>4</Duration>	
+   </Service>
+</ACServiceDetails>

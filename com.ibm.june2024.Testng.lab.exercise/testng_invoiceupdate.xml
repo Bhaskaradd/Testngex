@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+   <parameter name="customerName" value="Emily Brown"/>
+   <parameter name="invoiceNumber" value="1765112"/>
+   <parameter name="userType" value="Old User"/>
+   <parameter name="status" value="Approved"/>
+   <parameter name="category" value="Standard Invoice"/>
+   <parameter name="amount" value="5000"/>
+   <parameter name="mobileNumber" value="8933005429"/>
+   <parameter name="comments" value="Do the needful"/>
+    <classes>
+      <class name="InvoiceUpdate.Parameter.TestInvoiceUpdate"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
